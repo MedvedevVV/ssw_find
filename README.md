@@ -8,9 +8,9 @@
 
 Также есть альтернативное решение без использования массива (через SQL):
 
+```php 
 <?php
 // Подключаем БД:
-<?php
 $connectionDB = mysqli_connect(
 "localhost", 
 "username", 
@@ -22,6 +22,6 @@ if (mysqli_connect_error()) {
 echo "Невозможно подключится к MySQL: " . mysqli_connect_error();
 }
 ?>
-
+```
 Далее используем следующий SQL - запрос при каждом AJAX - запросе: "SELECT Name FROM Users WHERE Name LIKE '%$Name%'".
 
