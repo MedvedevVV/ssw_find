@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <form autocomplete = "off">
+    <form autocomplete = "off"> //Отключаем автозаполнение
         
         <label>
             <input type="text" id="search" placeholder="Введите домен" />
